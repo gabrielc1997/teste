@@ -1,0 +1,33 @@
+@mixin defineColor($class, $color) {
+    .c-#{$class} {
+        color: $color !important;
+    }
+    .c-#{$class}-event:hover, .c-#{$class}-event:active, .c-#{$class}-event:focus {
+        color: $color !important;
+    }
+    .bgc-#{$class} {
+        background-color: $color !important;
+    }
+    .bgc-#{$class}-event:hover, .bgc-#{$class}-event:active, .bgc-#{$class}-event:focus {
+        background-color: $color !important;
+    }
+    .bdc-#{$class} {
+        border-color: $color !important;
+    }
+    .bdc-#{$class}-event:hover, .bdc-#{$class}-event:active, .bdc-#{$class}-event:focus {
+        border-color: $color !important;
+    }
+}
+
+@include defineColor('white', $white);
+@include defineColor('black', $black);
+@include defineColor('white-two', $white-two);
+@include defineColor('white-three', $white-three);
+@include defineColor('tomato', $tomato);
+@include defineColor('strawberry', $strawberry);
+@include defineColor('slate-grey', $slate-grey);
+@include defineColor('warm-grey', $warm-grey);
+@include defineColor('charcoal-grey', $charcoal-grey);
+@include defineColor('slate-grey-two', $slate-grey-two);
+@include defineColor('red', $red);
+@include defineColor('light-red', $light-red);

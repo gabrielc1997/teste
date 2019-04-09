@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><nfeProc versao="3.10" xmlns="http://www.portalfiscal.inf.br/nfe"><NFe xmlns="http://www.portalfiscal.inf.br/nfe"><infNFe Id="NFe35180126278940000130550010000000341000165847" versao="3.10"><ide><cUF>35</cUF><cNF>00016584</cNF><natOp>VENDA DE MERCADORIA ADQUIRIDA P/ TERCEIROS</natOp><indPag>1</indPag><mod>55</mod><serie>1</serie><nNF>34</nNF><dhEmi>2018-01-22T09:38:00-02:00</dhEmi><tpNF>1</tpNF><idDest>1</idDest><cMunFG>3550308</cMunFG><tpImp>1</tpImp><tpEmis>1</tpEmis><cDV>7</cDV><tpAmb>1</tpAmb><finNFe>1</finNFe><indFinal>1</indFinal><indPres>1</indPres><procEmi>3</procEmi><verProc>3.10.86</verProc></ide><emit><CNPJ>26278940000130</CNPJ><xNome>Felipe André Lima Teixeira - ME</xNome><xFant>EMBRACOL</xFant><enderEmit><xLgr>RUA MICHIGAN</xLgr><nro>531</nro><xBairro>CIDADE MONÇÕES</xBairro><cMun>3550308</cMun><xMun>Sao Paulo</xMun><UF>SP</UF><CEP>04566001</CEP><cPais>1058</cPais><xPais>BRASIL</xPais><fone>11953350007</fone></enderEmit><IE>141310956110</IE><CRT>1</CRT></emit><dest><CNPJ>96291141015373</CNPJ><xNome>CENTRO DE DETENCAO PROVISORIA DE PONTAL - SEC ADM PENIT</xNome><enderDest><xLgr>ROD RDV. ARMANDO SALLES DE OLIVEIRA - SP 322, KM349 + 500 M</xLgr><nro>SN</nro><xBairro>ZONA RURAL</xBairro><cMun>3540200</cMun><xMun>Pontal</xMun><UF>SP</UF><CEP>14180000</CEP><cPais>1058</cPais><xPais>BRASIL</xPais><fone>1657048329</fone></enderDest><indIEDest>9</indIEDest></dest><det nItem="1"><prod><cProd>04029900</cProd><cEAN/><xProd>LEITE UHT INTEGRAL</xProd><NCM>04029900</NCM><CFOP>5102</CFOP><uCom>UN</uCom><qCom>6480.0000</qCom><vUnCom>2.3900000000</vUnCom><vProd>15487.20</vProd><cEANTrib/><uTrib>UN</uTrib><qTrib>6480.0000</qTrib><vUnTrib>2.3900000000</vUnTrib><indTot>1</indTot></prod><imposto><ICMS><ICMSSN102><orig>0</orig><CSOSN>400</CSOSN></ICMSSN102></ICMS><PIS><PISNT><CST>07</CST></PISNT></PIS><COFINS><COFINSNT><CST>07</CST></COFINSNT></COFINS></imposto></det><total><ICMSTot><vBC>0.00</vBC><vICMS>0.00</vICMS><vICMSDeson>0.00</vICMSDeson><vFCPUFDest>0.00</vFCPUFDest><vICMSUFDest>0.00</vICMSUFDest><vICMSUFRemet>0.00</vICMSUFRemet><vBCST>0.00</vBCST><vST>0.00</vST><vProd>15487.20</vProd><vFrete>0.00</vFrete><vSeg>0.00</vSeg><vDesc>0.00</vDesc><vII>0.00</vII><vIPI>0.00</vIPI><vPIS>0.00</vPIS><vCOFINS>0.00</vCOFINS><vOutro>0.00</vOutro><vNF>15487.20</vNF><vTotTrib>0.00</vTotTrib></ICMSTot></total><transp><modFrete>0</modFrete></transp><infAdic><infCpl>ENDEREÇO DE ENTREGA: ROD RDV. ARMANDO SALLES DE OLIVEIRA - SP 322, KM349 + 500 M, CEP: 14.180-000. CARO CLIENTE, VERIFIQUE SUA MERCADORIA NO ATO DE ENTREGA, POIS NÃO ACEITAREMOS RECLAMAÇÕES POSTERIORES. OFERTA DE COMPRA Nº 380253000012017OC00145. DADOS PARA FATURAMENTO: BANCO DO BRASIL, AG: 1896-1, CONTA CORRENTE: 50.090-9.</infCpl></infAdic></infNFe><Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/><Reference URI="#NFe35180126278940000130550010000000341000165847"><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><DigestValue>e0xaEkxERw3GlXVWsLky9uiCQtk=</DigestValue></Reference></SignedInfo><SignatureValue>TI9F4qqAa64BeF68+FJ0C+szKIuoVuWfCwmpAJtg+27ROXz75y1cMuKMn0itCeMVeVZfvnXqFfRi
+mZuxiF3tLwIkM4Mh+ftuRsR5M9BvObklIKGQCfrqCP1TyzfF5DorO2VpNtcIZxwpYgYZx/N9prlZ
+nncTJgdKZK29BD7YR7/L0y3mah1bTHNeHk4TgP4BISRmM7LCe3ffCmuJsDIkbFVfhzRZ84dcDR6F
+JB0QjaQrYgZC4xoGPVAuoWJn01GnOmKrLelFMHhSXdx4gxm7t5vksAB/m1D3/R5BcluVTf29gehw
+OlQ72F1rdOkmYTCX1n/3U/F2XG4rfrDS5bQp1g==</SignatureValue><KeyInfo><X509Data><X509Certificate>MIIHPTCCBSWgAwIBAgIDGyRgMA0GCSqGSIb3DQEBCwUAMIGJMQswCQYDVQQGEwJCUjETMBEGA1UE
+CgwKSUNQLUJyYXNpbDE2MDQGA1UECwwtU2VjcmV0YXJpYSBkYSBSZWNlaXRhIEZlZGVyYWwgZG8g
+QnJhc2lsIC0gUkZCMS0wKwYDVQQDDCRBdXRvcmlkYWRlIENlcnRpZmljYWRvcmEgU0VSUFJPUkZC
+djUwHhcNMTgwMTA1MTQwMjUxWhcNMTkwMTA1MTQwMjUxWjCB3DELMAkGA1UEBhMCQlIxCzAJBgNV
+BAgMAlNQMRIwEAYDVQQHDAlTQU8gUEFVTE8xEzARBgNVBAoMCklDUC1CcmFzaWwxNjA0BgNVBAsM
+LVNlY3JldGFyaWEgZGEgUmVjZWl0YSBGZWRlcmFsIGRvIEJyYXNpbCAtIFJGQjETMBEGA1UECwwK
+QVJDT1JSRUlPUzEWMBQGA1UECwwNUkZCIGUtQ05QSiBBMTEyMDAGA1UEAwwpRkVMSVBFIEFORFJF
+IExJTUEgVEVJWEVJUkE6MjYyNzg5NDAwMDAxMzAwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEK
+AoIBAQCKi9PwEChm0JFBEl9s0q9gvCtS5+HHGNYZyT6++9/PEF7yobar3/UDtL9x7tkdJnErmArd
+GvgJCpp7u9TdlFsF2l7sRatam0F0POrCsFnwSjj1ZkLSX0OocQJaXQgnnrF0qKxF4EAPrUlZZqxZ
+VPEDEApIy91MJc0e8WbAQUyTxcim+FinM7U2WvrmNrydyHzM7vGWv+mbe8h+cGQoCL1xZqnL5W+f
+WDpTEm+dibVQMn+2ZB1TJq+ESLvWPevjNZS2oZRKtubN49Cz8HSBEXOCyzfZP+ArKeaoiKmSVzBZ
+8BxhzOp5GTp/CkISZ+xTGYj0rBlvTR6nAk92KGHmDowdAgMBAAGjggJXMIICUzAfBgNVHSMEGDAW
+gBQUgC2dfppFwPFbPxnVQLBvL2Xg6TBbBgNVHSAEVDBSMFAGBmBMAQIBCjBGMEQGCCsGAQUFBwIB
+FjhodHRwOi8vcmVwb3NpdG9yaW8uc2VycHJvLmdvdi5ici9kb2NzL2RwY2Fjc2VycHJvcmZiLnBk
+ZjCBiAYDVR0fBIGAMH4wPKA6oDiGNmh0dHA6Ly9yZXBvc2l0b3Jpby5zZXJwcm8uZ292LmJyL2xj
+ci9hY3NlcnByb3JmYnY1LmNybDA+oDygOoY4aHR0cDovL2NlcnRpZmljYWRvczIuc2VycHJvLmdv
+di5ici9sY3IvYWNzZXJwcm9yZmJ2NS5jcmwwVgYIKwYBBQUHAQEESjBIMEYGCCsGAQUFBzAChjpo
+dHRwOi8vcmVwb3NpdG9yaW8uc2VycHJvLmdvdi5ici9jYWRlaWFzL2Fjc2VycHJvcmZidjUucDdi
+MIHABgNVHREEgbgwgbWgPQYFYEwBAwSgNAQyMTgxMTE5ODcwMzQ2MzE1NzUxOTAwMDAwMDAwMDAw
+MDAwMDAwMDMyNDk3NTYzU1NQU0WgJQYFYEwBAwKgHAQaRkVMSVBFIEFORFJFIExJTUEgVEVJWEVJ
+UkGgGQYFYEwBAwOgEAQOMjYyNzg5NDAwMDAxMzCgFwYFYEwBAwegDgQMMDAwMDAwMDAwMDAwgRlj
+b250YXRvZW1icmFjb2xAZ21haWwuY29tMA4GA1UdDwEB/wQEAwIF4DAdBgNVHSUEFjAUBggrBgEF
+BQcDBAYIKwYBBQUHAwIwDQYJKoZIhvcNAQELBQADggIBAGRSjkVaYl0M7F75x+uRA0F90NJ0Lrmq
+rhfNwySToDdOAEPJnwMqNwZ1trIe404JK2I8C/8meo4o+bcQBqZcQBTWJbsPnkp6pu5KcBlgGVhu
+U+3yuGtyaMfPlItQADLLA8+W5Tq5wNoN7WyQ4gJ9wYQ2Bs3yspuuPd1JkmtLMPn22KQd7EgeuPI+
+RZMm+oGmtBQwlFiHlQIf3vgIC3vagL/CvmZn4DIMeD9yhbRPPmjmnsqpLIvxMG0rp+m8mRslFodJ
+L+DWyXmwwaQoBikYfGCFWLgxsAUMw/U+2aQdjVuUBNidd/vRTKIKiYIKZjqaWtN68omH5PRH5Jqc
+bUNPFN4GCcpQlnulfGHH4Tq+cgIzYOznlo+LlyXVrqVCS00vTpNITtaLTFGsbGDvLgR5gV/adHqx
+i/Qbd9ONdYiPFhMR9IHXI8fK8NMKgVIVVgjgB+xUWOc+K4Zp2125ZZe488pPLYHerm8S6WgoiIR+
+utpvFhZfOockZNFj7N8mxYpKOWYGLkCKvMAxJI+8qG6FnCQdlkFCrseZc0vf8vKHAWYFaUP176IQ
+/AgQjO9XA+JTZJz6MIe/GuzO1IQiCiWyYWGjMmc3OmXXaNBtuaj3R6Nmlypa4842zs8ZZJhZkTbM
+qJoMcDWL0LJUXYxeik7sdZ9mGTFkSLYiAHHHGknd7scJ</X509Certificate></X509Data></KeyInfo></Signature></NFe><protNFe versao="3.10"><infProt><tpAmb>1</tpAmb><verAplic>SP_NFE_PL_008i2</verAplic><chNFe>35180126278940000130550010000000341000165847</chNFe><dhRecbto>2018-01-22T09:59:46-02:00</dhRecbto><nProt>135180046520049</nProt><digVal>e0xaEkxERw3GlXVWsLky9uiCQtk=</digVal><cStat>100</cStat><xMotivo>Autorizado o uso da NF-e</xMotivo></infProt></protNFe></nfeProc>

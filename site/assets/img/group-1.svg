@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="117" height="120" viewBox="0 0 117 120">
+    <defs>
+        <linearGradient id="a" x1="55.953%" x2="55.953%" y1="0%" y2="98.812%">
+            <stop offset="0%" stop-color="#F15A23" stop-opacity=".495"/>
+            <stop offset="100%" stop-color="#F83C3D" stop-opacity=".501"/>
+        </linearGradient>
+        <linearGradient id="b" x1="0%" y1="100%" y2="0%">
+            <stop offset="0%" stop-color="#F15A23"/>
+            <stop offset="100%" stop-color="#F83C3D"/>
+        </linearGradient>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g transform="translate(.059 26.908)">
+            <path fill="#F15A23" fill-opacity=".12" d="M0 72.808h38.32v9.58H0zM0 83.346h38.32v9.58H0z"/>
+            <path fill="url(#a)" d="M0 51.732h38.32v20.106H0z"/>
+            <path fill="#F15A23" fill-opacity=".12" d="M39.278 72.808h38.32v9.58h-38.32zM39.278 51.732h38.32v9.58h-38.32zM39.278 83.346h38.32v9.58h-38.32zM39.278 62.27h38.32v9.58h-38.32z"/>
+            <path fill="url(#a)" d="M39.278 30.656h38.32v20.118h-38.32z"/>
+            <path fill="#F15A23" fill-opacity=".12" d="M78.556 72.808h38.32v9.58h-38.32zM78.556 51.732h38.32v9.58h-38.32zM78.556 30.656h38.32v9.58h-38.32zM78.556 20.118h38.32v9.58h-38.32zM78.556 41.194h38.32v9.58h-38.32zM78.556 83.346h38.32v9.58h-38.32zM78.556 62.27h38.32v9.58h-38.32z"/>
+            <path fill="url(#a)" d="M78.556 0h38.32v19.16h-38.32z"/>
+            <circle cx="19.16" cy="61.312" r="4.79" fill="#FFF" stroke="#F83C3D" stroke-linecap="round" stroke-linejoin="round"/>
+            <circle cx="58.438" cy="41.194" r="4.79" fill="#FFF" stroke="#F83C3D" stroke-linecap="round" stroke-linejoin="round"/>
+            <circle cx="96.758" cy="9.58" r="4.79" fill="#FFF" stroke="#F83C3D" stroke-linecap="round" stroke-linejoin="round"/>
+        </g>
+        <g stroke-linecap="round" stroke-linejoin="round" stroke-width="3">
+            <path stroke="url(#b)" d="M0 47.905L25.866 22.04l9.11 9.11L65.17.959" transform="translate(11.555 2)"/>
+            <path stroke="#F83C3D" d="M69.993 2h7.664v7.664"/>
+        </g>
+    </g>
+</svg>

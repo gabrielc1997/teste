@@ -1,0 +1,306 @@
+.overflow-h {
+    overflow: hidden;
+}
+
+.overflow-x-h {
+    overflow-x: hidden;
+}
+
+.p-r {
+    position: relative;
+}
+
+.p-a {
+    position: absolute;
+}
+
+.transition {
+    transition: $transition;
+}
+
+.full-width {
+    width: 100% !important;
+}
+
+.full-height {
+    height: 100% !important;
+}
+
+.point {
+    cursor: pointer;
+}
+
+.upper {
+    text-transform: uppercase;
+}
+
+.lower {
+    text-transform: lowercase;
+}
+
+.inherit {
+    text-transform: initial;
+}
+
+.m-a {
+    margin: auto;   
+}
+
+.p-0 {
+    padding: 0 !important;
+}
+
+.rotate-180 {
+    transform: rotate(180deg);
+}
+
+.va-m {
+    vertical-align: middle;
+}
+
+.f-l-xs {
+    float: left;
+}
+
+.f-r-xs {
+    float: right;
+}
+
+.ta-c-xs {
+    text-align: center;
+}
+
+.ta-l-xs {
+    text-align: left;
+}
+
+.ta-r-xs {
+    text-align: right;
+}
+
+.ta-c-xs {
+    text-align: center;
+}
+
+.p-r-xs {
+    position: relative;
+}
+
+.p-a-xs {
+    position: absolute;
+}
+
+.center-block-xs {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.left-block-xs {
+    display: block;
+    margin-left: 0;
+    margin-right: auto;
+}
+
+.right-block-xs {
+    display: block;
+    margin-left: auto;
+    margin-right: 0;
+}
+
+.visible-xlg {
+    display: none !important;
+}
+
+@for $i from 0 through 10 {
+    .bd-#{$i} {
+        border: #{$i}px solid;
+    }
+}
+
+@mixin base($class, $property, $amount, $increase) {
+    @for $i from 0 through $amount {
+        #{$class}-#{$i * $increase} {
+            #{$property}: #{$i * $increase}px !important;
+        }
+    }
+}
+
+@include base('.pt-xs', 'padding-top', 12, 10);
+@include base('.pb-xs', 'padding-bottom', 10, 10);
+@include base('.mt-xs', 'margin-top', 20, 5);
+@include base('.mb-xs', 'margin-bottom', 20, 5);
+
+@media only screen and (min-width: $sm) {
+    @include base('.pt-sm', 'padding-top', 20, 10);
+    @include base('.pb-sm', 'padding-bottom', 20, 10);
+    @include base('.mt-sm', 'margin-top', 11, 10);
+    @include base('.mb-sm', 'margin-bottom', 10, 10);
+    .center-block-sm {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .left-block-sm {
+        display: block;
+        margin-left: 0;
+        margin-right: auto;
+    }
+
+    .right-block-sm {
+        display: block;
+        margin-left: auto;
+        margin-right: 0;
+    }
+    .p-r-sm {
+        position: relative;
+    }
+    .p-a-sm {
+        position: absolute;
+    }
+    .f-l-sm {
+        float: left;
+    }
+    .f-r-sm {
+        float: right;
+    }
+    .ta-c-sm {
+        text-align: center;
+    }
+    .ta-l-sm {
+        text-align: left;
+    }
+    .ta-r-sm {
+        text-align: right;
+    }
+    .d-ib {
+        display: inline-block !important;
+    }
+}
+
+@media only screen and (min-width: $md) {
+    @include base('.pt-md', 'padding-top', 0, 0);
+    @include base('.pb-md', 'padding-bottom', 10, 10);
+    @include base('.mt-md', 'margin-top', 5, 10);
+    @include base('.mb-md', 'margin-bottom', 0, 0);
+    .center-block-md {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .left-block-md {
+        display: block;
+        margin-left: 0;
+        margin-right: auto;
+    }
+
+    .right-block-md {
+        display: block;
+        margin-left: auto;
+        margin-right: 0;
+    }
+    .p-r-md {
+        position: relative;
+    }
+    .p-a-md {
+        position: absolute;
+    }
+    .f-l-md {
+        float: left;
+    }
+    .f-r-md {
+        float: right;
+    }
+    .ta-c-md {
+        text-align: center;
+    }
+    .ta-l-md {
+        text-align: left;
+    }
+}
+
+@media only screen and (min-width: $lg) {
+    @include base('.pt-lg', 'padding-top', 40, 5);
+    @include base('.pb-lg', 'padding-bottom', 40, 5);
+    @include base('.mt-lg', 'margin-top', 11, 10);
+    @include base('.mb-lg', 'margin-bottom', 0, 0);
+    .center-block-lg {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .left-block-lg {
+        display: block;
+        margin-left: 0;
+        margin-right: auto;
+    }
+
+    .right-block-lg {
+        display: block;
+        margin-left: auto;
+        margin-right: 0;
+    }
+    .p-r-lg {
+        position: relative;
+    }
+    .p-a-lg {
+        position: absolute;
+    }
+    .f-l-lg {
+        float: left;
+    }
+    .f-r-lg {
+        float: right;
+    }
+    .ta-c-lg {
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: $xlg) {
+    @include base('.pt-xlg', 'padding-top', 0, 0);
+    @include base('.pb-xlg', 'padding-bottom', 0, 0);
+    @include base('.mt-xlg', 'margin-top', 0, 0);
+    @include base('.mb-xlg', 'margin-bottom', 0, 0);
+    .center-block-xlg {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .left-block-xlg {
+        display: block;
+        margin-left: 0;
+        margin-right: auto;
+    }
+
+    .right-block-xlg {
+        display: block;
+        margin-left: auto;
+        margin-right: 0;
+    }
+    .p-r-xlg {
+        position: relative;
+    }
+    .p-a-xlg {
+        position: absolute;
+    }
+    .f-l-xlg {
+        float: left;
+    }
+    .f-r-xlg {
+        float: right;
+    }
+    .ta-c-xlg {
+        text-align: center;
+    }
+    .hidden-xlg {
+        display: none !important;
+    }
+    .visible-xlg {
+        display: block !important;
+    }
+}

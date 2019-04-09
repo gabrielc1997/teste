@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FileZilla3 version="3.14.0" platform="*nix">
+	<Servers>
+		<Server>
+			<Host>hostdoSite.com.br</Host>
+			<Port>21</Port>
+			<Protocol>6</Protocol>
+			<Type>0</Type>
+			<User>Usuarioa aqui</User>
+			<Pass encoding="base64">sarfhn87tf4</Pass>
+			<Logontype>1</Logontype>
+			<TimezoneOffset>0</TimezoneOffset>
+			<PasvMode>MODE_DEFAULT</PasvMode>
+			<MaximumMultipleConnections>0</MaximumMultipleConnections>
+			<EncodingType>Auto</EncodingType>
+			<BypassProxy>0</BypassProxy>
+			<Name>Nome</Name>
+			<Comments>Comentario</Comments>
+			<LocalDir>Direção</LocalDir>
+			<RemoteDir>654654654</RemoteDir>
+			<SyncBrowsing>300</SyncBrowsing>
+			<DirectoryComparison>1234</DirectoryComparison>umSiteAqui.com.br</Server>
+	</Servers>
+</FileZilla3>

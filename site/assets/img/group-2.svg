@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="109" height="132" viewBox="0 0 109 132">
+    <defs>
+        <linearGradient id="a" x1="91.724%" x2="3.073%" y1="50.6%" y2="50.6%">
+            <stop offset="0%" stop-color="#F3A58A" stop-opacity="0"/>
+            <stop offset="100%" stop-color="#F79796"/>
+        </linearGradient>
+        <linearGradient id="b" x1="49.4%" x2="49.4%" y1=".123%" y2="91.724%">
+            <stop offset="0%" stop-color="#F3A58A" stop-opacity=".986"/>
+            <stop offset="100%" stop-color="#F79796"/>
+        </linearGradient>
+        <linearGradient id="d" x1="84.861%" x2="84.861%" y1="-8.921%" y2="24.343%">
+            <stop offset="0%" stop-color="#FFF" stop-opacity=".6"/>
+            <stop offset="100%" stop-color="#FFF" stop-opacity=".199"/>
+        </linearGradient>
+        <path id="c" d="M49.845 64.612h9.297v58.457h-9.297z"/>
+        <linearGradient id="e" x1="19.511%" y1="80.745%" y2="0%">
+            <stop offset="0%" stop-color="#FFF"/>
+            <stop offset="30.775%" stop-color="#F15A23"/>
+            <stop offset="100%" stop-color="#F83C3D"/>
+        </linearGradient>
+        <linearGradient id="f" x1="57.096%" x2="57.096%" y1="2.866%" y2="95.934%">
+            <stop offset="0%" stop-color="#FFF" stop-opacity=".6"/>
+            <stop offset="100%" stop-color="#FFF" stop-opacity=".199"/>
+        </linearGradient>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <path fill="url(#a)" d="M27.658 78.004c-15.028 0-27.21-12.183-27.21-27.21V39.51h27.21v38.493zm-2.194-4.724V41.835H3.236v9.217c0 12.276 9.952 22.228 22.228 22.228z" transform="translate(-.035 2)"/>
+        <path fill="url(#a)" d="M108.557 78.004c-15.028 0-27.21-12.183-27.21-27.21V39.51h27.21v38.493zm-2.194-4.724V41.835H84.135v9.217c0 12.276 9.952 22.228 22.228 22.228z" transform="matrix(-1 0 0 1 189.868 2)"/>
+        <g transform="matrix(1 0 0 -1 -.035 189.68)">
+            <use fill="url(#b)" xlink:href="#c"/>
+            <use fill="url(#d)" xlink:href="#c"/>
+        </g>
+        <g stroke-linecap="round" stroke-linejoin="round" stroke-width="3">
+            <path stroke="url(#e)" d="M0 35.038l18.918-18.919 6.664 6.664L47.664.7" transform="translate(30.18 2)"/>
+            <path stroke="#F83C3D" d="M72.92 2h5.606v5.605"/>
+        </g>
+        <path fill="url(#b)" d="M14.053 30.214h80.881V46.95c0 22.334-18.106 40.44-40.44 40.44-22.336 0-40.441-18.106-40.441-40.44V30.214z" transform="translate(-.035 2)"/>
+        <path fill="url(#b)" d="M31.251 122.717h46.484a6.973 6.973 0 0 1-6.972 6.972H38.224a6.973 6.973 0 0 1-6.973-6.972z" transform="matrix(1 0 0 -1 -.035 254.406)"/>
+        <path fill="url(#f)" fill-rule="nonzero" d="M54.44 56.62a2.307 2.307 0 1 1 2.305-2.306h4.612c0-3.003-1.934-5.54-4.612-6.494v-2.73h-4.612v2.73c-2.677.954-4.612 3.491-4.612 6.494a6.927 6.927 0 0 0 6.918 6.918 2.307 2.307 0 1 1-2.306 2.306h-4.612c0 3.002 1.935 5.54 4.612 6.494v2.73h4.612v-2.73c2.678-.955 4.612-3.492 4.612-6.494a6.927 6.927 0 0 0-6.918-6.918z" transform="translate(-.035 2)"/>
+    </g>
+</svg>
